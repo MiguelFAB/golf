@@ -1,14 +1,21 @@
-body
+.bodyBackground 
 {
-	text-align: center;
+    background-position: center;
+    background-size:contain;
+	background:url(Grass.jpg);
 }
-span
+#myCanvas
 {
-	font-size: 18px;
+    border-width:10px;
+    border-style:ridge;
+	background-color:forestgreen;
+}
+
+
+#hd3{
+	display: inline-block;
 	color: red;
+	background-color: aliceblue;
+	font-family: fantasy;
 }
-canvas
-{
-	background: pink;
-	border-radius: 20px;
-}
+
